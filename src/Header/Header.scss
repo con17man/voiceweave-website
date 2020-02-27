@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+
+  &__logo {
+    margin: 40px auto;
+  }
+
+  &__title {
+    font-family: 'Cooper Lt';
+    font-size: 40px;
+    letter-spacing: -0.022em;
+    line-height: 56px;
+    text-align: center;
+    margin: 40px auto 20px;
+  }
+
+  &__subtitle {
+    font-family: 'Inter Regular';
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 42px;
+    margin: 20px auto;
+    color: $darkGrey;
+    text-align: center;
+  }
+}

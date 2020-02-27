@@ -1,0 +1,15 @@
+
+// COLORS
+
+$white: #FFFFFF;
+$lightGrey: #E5E5E5;
+$darkGrey: #777A86;
+$darkBlue: #030047;
+$yellow: #FAC63E;
+
+$states: (
+  flat: $white,
+  disabled: $darkGrey,
+  info: $darkBlue,
+  warning: $yellow
+);

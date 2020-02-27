@@ -1,0 +1,50 @@
+.subscribe {
+  padding: 0 16px;
+
+  &__headline {
+    font-family: 'Cooper Lt';
+    font-size: 30px;
+    letter-spacing: -0.022em;
+    line-height: 40px;
+    text-align: center;
+    margin: 40px auto 20px;
+  }
+
+  &__email {
+    width: 100%;
+    border: 1px solid $darkBlue;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+
+  &__cta {
+    width: 100%;
+    padding: 17px;
+    background: $yellow;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  &__info {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 20px;
+    color: $darkGrey;
+    margin: 0 auto 16px;
+
+    &--link {
+      // color: $darkGrey;
+      cursor: pointer;
+    }
+  }
+
+  &__illustration {
+    display: block;
+    width: 320px;
+    margin: auto;
+  }
+}
