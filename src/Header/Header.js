@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Highlighter from '../Highlighter/Highlighter';
+
 import logo from '../assets/img/voiceweave_logo.svg';
 
 export class Header extends Component {
@@ -8,7 +10,9 @@ export class Header extends Component {
       <div className="header">
         <img src={logo} className="header__logo" alt="Voiceweave" />
 
-        <p className="header__title">Get connected to the <span className="text--warning">right</span> people.</p>
+        <p className="header__title">
+          <Highlighter sentence="Get connected to the right people." keyword="right" />
+        </p>
         <p className="header__subtitle">Let millions of people hear your voice.</p>
       </div>
     )
